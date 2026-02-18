@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <title>Portfolio | CSE Student</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">RP</div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle">☰</div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+   <section class="hero" data-aos="fade-up">
+    
+    <img src="images/profile.jpeg" alt="Profile Picture" class="profile-pic">
+
+    <h1>Hello, I'm <span>Ranangan Pal</span></h1>
+    <p>Bachelor of Technology in Computer Science & Engineering</p>
+    <a href="#contact" class="btn">Get In Touch</a>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section" data-aos="fade-up">
+        <h2>About Me</h2>
+        <p>
+            I am a passionate Computer Science & Engineering student interested in 
+            problem-solving, algorithms, and building efficient software solutions.
+            Currently focused on strengthening core CS fundamentals.
+        </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section" data-aos="fade-up">
+        <h2>Skills</h2>
+        <div class="skills-container">
+            <div class="skill">C</div>
+            <div class="skill">C++</div>
+            <div class="skill">Python</div>
+            <div class="skill">Mathematics & Problem problem-solving</div>
+            <div class="skill">Data Structures</div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section" data-aos="fade-up">
+        <h2>Projects</h2>
+        <div class="projects-container">
+            <div class="project-card">
+                <h3>Project Title 1</h3>
+                <p>Short description of the project and technologies used.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Title 2</h3>
+                <p>Short description of the project and technologies used.</p>
+            </div>
+            <div class="project-card">
+                <h3>Project Title 3</h3>
+                <p>Short description of the project and technologies used.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section" data-aos="fade-up">
+    <h2>Contact</h2>
+    <div class="contact-buttons">
+        <a href="mailto:rananaganpal@gmail.com" class="contact-btn">Email Me</a>
+        <a href="https://www.linkedin.com/in/rananagan-pal" class="contact-btn">LinkedIn</a>
+        <a href="https://github.com/rananaganpal" class="contact-btn">GitHub</a>
+    </div>
+</section>
+
+
+    <footer>
+        <p>© 2026 Ranangan Pal | CSE Student</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+<script>
+  AOS.init({
+    duration: 1000,
+    once: true
+  });
+</script>
+
+<div id="particles-js"></div>
+    <script>
+    particlesJS("particles-js", {
+  particles: {
+    number: {
+      value: 80,
+      density: {
+        enable: true,
+        value_area: 800
+      }
+    },
+    color: { value: "#8b5cf6" },
+
+    shape: {
+      type: "circle"
+    },
+    opacity: {
+      value: 0.5
+    },
+    size: {
+      value: 3,
+      random: true
+    },
+    line_linked: {
+      enable: true,
+      distance: 150,
+      color: "#8b5cf6",
+      opacity: 0.4,
+      width: 1
+    },
+    move: {
+      enable: true,
+      speed: 2
+    }
+  },
+  interactivity: {
+    events: {
+      onhover: {
+        enable: true,
+        mode: "repulse"
+      }
+    }
+  },
+  retina_detect: true
+});
+</script>
+
+</body>
+</html>
